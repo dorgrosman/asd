@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "cd frontend && npm install && npm run build",
-    "server": "nodemon backend/server.js",
-   
+    "server": "nodemon backend/server.js"
   },
   "author": "",
   "license": "ISC",
